@@ -1,0 +1,217 @@
+{
+  "students": [
+    {
+      "id": 12,
+      "name": "Christopher Eakins",
+      "whiteboards_completed": 2,
+      "avatar_pic": "christopher-eakins-avatar.jpeg",
+      "ability": "Debug in the Sky",
+      "hobbies": "Traveling Analyst",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+    {
+      "id": 44,
+      "name": "Ben Kill",
+      "whiteboards_completed": 2,
+      "avatar_pic": "ben-kill-avatar.png",
+      "ability": "Underwater Haking",
+      "hobbies": "Gettin Buff",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+    {
+      "id": 10,
+      "name": "Ray Ruenheck",
+      "whiteboards_completed": 2,
+      "avatar_pic": "ray-ruenheck-avatar.png",
+      "ability": "Algo Yute",
+      "hobbies": "Momo Pets ",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+    {
+      "id": 4,
+      "name": "Todd Camnitz",
+      "whiteboards_completed": 2,
+      "avatar_pic": "todd-camnitz-avatar.png",
+      "ability": "SPIKING CODE",
+      "hobbies": "THROWING CLAY",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+
+    {
+      "id": 28,
+      "name": "Doctor MD",
+      "whiteboards_completed": 2,
+      "avatar_pic": "md-avatar.png",
+      "ability": "Medical Debuggin",
+      "hobbies": "Getin' People Home! ",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+    {
+      "id": 88,
+      "name": "Thai (Tom) Truong",
+      "whiteboards_completed": 2,
+      "avatar_pic": "thai-truong-avatar.png",
+      "ability": "Social Mastery",
+      "hobbies": "Game-a-holic",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+    {
+      "id": 38,
+      "name": "John Burgess",
+      "whiteboards_completed": 1,
+      "avatar_pic": "john-burgess-avatar.png",
+      "ability": "Loop SMASH",
+      "hobbies": "Tabletop Hero ",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+    {
+      "id": 26,
+      "name": "Will Jennings",
+      "whiteboards_completed": 1,
+      "avatar_pic": "will-jennings-avatar.png",
+      "ability": "Giant Monitor-Mode",
+      "hobbies": "Code Diving",
+      "type": "student",
+      "board_type_finished": "Pangram (python)",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+
+    {
+      "id": 12,
+      "name": "Gian Carlo Torres",
+      "whiteboards_completed": 1,
+      "avatar_pic": "gian-carlo-torres.png",
+      "ability": "Code-tender",
+      "hobbies": "Pastry Aficionado",
+      "type": "student"
+    },
+    {
+      "id": 116,
+      "name": "Karina Quenta",
+      "whiteboards_completed": 1,
+      "avatar_pic": "karina-quenta-avatar.png",
+      "ability": "Meta Swimmer",
+      "hobbies": "Bay Area Hiker",
+      "type": "student"
+    },
+    {
+      "id": 20,
+      "name": "Yea Young Kim",
+      "whiteboards_completed": 1,
+      "avatar_pic": "yea-young-kim.png",
+      "ability": "Code Finesse",
+      "hobbies": "Cat Pattin'",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+    {
+      "id": 18,
+      "name": "William Toppass",
+      "whiteboards_completed": 1,
+      "avatar_pic": "william-toppass-avatar.png",
+      "ability": "TBD!",
+      "hobbies": "TBD!",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+    {
+      "id": 16,
+      "name": "David Park",
+      "whiteboards_completed": 1,
+      "avatar_pic": "david-park-avatar.png",
+      "ability": "Social Mastery",
+      "hobbies": "Nomadic Zoom Calls",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+
+    {
+      "id": 14,
+      "name": "Alec Vandehey",
+      "whiteboards_completed": 1,
+      "avatar_pic": "alec-vandehey-avatar.png",
+      "ability": "Loop Shred",
+      "hobbies": "Deep Sea Debugger",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+
+    {
+      "id": 10,
+      "name": "Andy Santana",
+      "whiteboards_completed": 1,
+      "avatar_pic": "andy-santana-avatar.png",
+      "ability": "TBD",
+      "hobbies": "DOUBLE TBD",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+    {
+      "id": 2,
+      "name": "Khoa Thai ",
+      "whiteboards_completed": 1,
+      "avatar_pic": "khoa-thai-avatar.png",
+      "ability": "TBD",
+      "hobbies": "TBD",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+    {
+      "id": 4,
+      "name": "HAMED",
+      "whiteboards_completed": 2,
+      "avatar_pic": "hamet-avatar.png",
+      "ability": "Codekicker",
+      "hobbies": "Fearless Inquisition",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+
+    {
+      "id": 6,
+      "name": "Vinh Tran",
+      "whiteboards_completed": 1,
+      "avatar_pic": "vinh-tran-avatar.png",
+      "ability": "TBD",
+      "hobbies": "DOUBLE TBD",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+    {
+      "id": 8,
+      "name": "Christopher Ajayi",
+      "whiteboards_completed": 1,
+      "avatar_pic": "christopher-ajayi-avatar.png",
+      "ability": "TBD",
+      "hobbies": "DOUBLE TBD",
+      "type": "student",
+      "track": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    }
+  ]
+}

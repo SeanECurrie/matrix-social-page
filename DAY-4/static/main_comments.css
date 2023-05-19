@@ -1,0 +1,95 @@
+/* Set minimum height of the HTML element to 100% of the viewport height */
+html {
+  min-height: 100vh;
+}
+
+/* Styles for the body element */
+body {
+  background: black; /* Set background color to black */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+  box-sizing: border-box; /* Include border and padding in the element's total width and height */
+  width: 100%; /* Set width to 100% of the parent element */
+  height: 100vh; /* Set height to 100% of the viewport height */
+}
+
+/* Styles for the navbar container */
+.navbar {
+  justify-content: center; /* Center the content horizontally */
+}
+
+/* Styles for the navbar brand */
+.navbar-brand {
+  margin: 0; /* Remove margin */
+}
+
+/* Styles for elements with the class "bg-dark" */
+.bg-dark {
+  background-color: #282d31 !important; /* Set background color to dark gray */
+}
+
+/* Styles for elements with the class "fa-apple" */
+.fa-apple {
+  font-size: 2rem; /* Set font size to 2rem */
+}
+
+/* Styles for all button elements */
+button {
+  cursor: pointer; /* Set cursor to pointer */
+  background-color: #000000; /* Set background color to black */
+  color: black; /* Set text color to black */
+  padding: 0; /* Remove padding */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Set border radius to 5px */
+  background-color: #282d31; /* Set background color to dark gray */
+}
+
+/* Styles for navigation within the footer element */
+footer nav {
+  position: fixed; /* Set position to fixed */
+  bottom: 0; /* Position at the bottom */
+  width: 100%; /* Set width to 100% of the parent element */
+}
+
+/* Styles for the container element */
+.container {
+  width: 90%; /* Set width to 90% of the parent element */
+  margin: 2rem auto; /* Set margin around the container */
+}
+
+/* Styles for the gallery container */
+.gallery {
+  display: grid; /* Use CSS grid for layout */
+  justify-content: center; /* Center the content horizontally */
+  grid-template-columns: repeat(2, 1fr); /* Create a grid with 2 columns */
+  grid-gap: 30px 20px; /* Set the gap between grid items */
+  color: #444; /* Set text color to dark gray */
+}
+
+/* Change the grid layout when the viewport is 600px or larger */
+@media (min-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr); /* Change grid to have 3 columns */
+  }
+}
+
+/* Change the grid layout when the viewport is 900px or larger */
+@media (min-width: 900px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr); /* Change grid to have 4 columns */
+  }
+}
+
+/* Styles for images within the gallery */
+.gallery-img {
+  cursor: pointer; /* Set cursor to pointer */
+  width: 100%; /* Set width to 100% */
+  border-radius: 5px; /* Set border radius to 5px */
+  transition: 0.5s; /* Add transition effect with duration of 0.5s */
+}
+
+/* Styles for images when hovered or focused */
+img:hover,
+img:focus {
+  box-shadow: rgba(255, 255, 255, 0.25) 
+}
