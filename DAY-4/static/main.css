@@ -133,3 +133,11 @@ main {
   margin-top: 5px;
   color: #1ca152;
 }
+
+img.avatar{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  vertical-align: middle;
+  z-index: 1
+}
