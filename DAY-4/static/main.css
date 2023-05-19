@@ -8,9 +8,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden; /* added to prevent overflow if canvas and main exceed viewport */
-  height: 100vh; /* ensure the body covers the full viewport height */
-  width: 100vw; /* ensure the body covers the full viewport width */
+  overflow: hidden; 
+  height: 100vh; 
+  width: 100vw; 
   
 }
 
@@ -47,15 +47,15 @@ footer {
   height: 50px;
   z-index: 1;
 }
-canvas#c {
+/* canvas#c {
   position: absolute;
   top: 0;
   left: 0;
-  /* set the width and height to fit the viewport */
+  
   width: 100vw;
   height: 100vh;
-  z-index: 0; /* lower z-index as it should be below the main content */
-}
+  z-index: 0; 
+} */
 main {
   position: absolute;
   top: 50px; /* push down by the height of the nav bar */
@@ -76,7 +76,7 @@ main {
 }
 
 .box {
-  .box {
+  
     /* Existing properties */
     box-sizing: border-box;
     color: #fff;
@@ -89,7 +89,7 @@ main {
     /* Add the following */
     z-index: 2; /* set z-index higher than the canvas's z-index (which is 0) */
     background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for visibility against the canvas */
-  }
+  
 }
 .play-pause-btn {
   position: absolute;
