@@ -5,7 +5,7 @@ let studentData;
 let song;
 let currentTrack, currentArtist; // added for saving current track and artist
 
-// geting canvas by Boujjou Achraf
+
 var c = document.getElementById("c");
 var ctx = c.getContext("2d");
 
@@ -54,8 +54,10 @@ function draw()
         drops[i]++;
     }
 }
-///////////////////////////
+
 setInterval(draw, 35);
+
+///////////////////////////
 async function getToken() {
   const res = await fetch('https://accounts.spotify.com/api/token', {
     //fixed URL
@@ -119,6 +121,7 @@ window.playSong = async function (track, artist, buttonElement) {
     console.error('Failed to get song:', error);
   }
 };
+
 window.pauseSong = function (buttonElement) {
   // added buttonElement as an argument
   if (song) {
@@ -136,6 +139,7 @@ window.stopSong = function () {
     song = null;
   }
 };
+///Users/seancurrie/Desktop/ct-work/COHORTS/MATRIX-116/DEMO-CLASS/WEEK7_JS/matrix-social-page/DAY-4/static/students/student_cards.json
 
 fetch('../static/students/student_cards.json')
   .then((response) => response.json())
