@@ -139,7 +139,6 @@ window.stopSong = function () {
     song = null;
   }
 };
-///Users/seancurrie/Desktop/ct-work/COHORTS/MATRIX-116/DEMO-CLASS/WEEK7_JS/matrix-social-page/DAY-4/static/students/student_cards.json
 
 fetch('../static/students/student_cards.json')
   .then((response) => response.json())
@@ -154,7 +153,7 @@ fetch('../static/students/student_cards.json')
 
       let imgElement = document.createElement('img');
       imgElement.className = 'gallery-img';
-      imgElement.src = `../static/images/${student.avatar_pic}`;
+      imgElement.src = `./static/images/${student.avatar_pic}`;
       imgElement.alt = `${student.track} - ${student.artist}`;
 
       let playPauseBtn = document.createElement('button');
