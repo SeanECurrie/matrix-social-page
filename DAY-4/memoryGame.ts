@@ -1,12 +1,12 @@
 // Import any necessary dependencies or modules.
 
 // Define any necessary interfaces or types.
-
+ 
 // Define and initialize variables or constants.
 
 ///////////////////////////////////////
 // Define functions for the game logic:
-// - Function to handle the card click event.
+// Function to handle the card click event.
 
 // - Function to generate and shuffle the cards.
 
